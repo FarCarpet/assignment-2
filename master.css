@@ -16,16 +16,11 @@
 }
 .carousel-item > img {
   position: fixed;
-  center: 0;
   bottom: 0;
   min-width: 100%;
-
+  min-height: 500px;
+  display: flex;
 }
-.img{
-    background-size: cover;
-    background-position: center bottom;
-}
-
 .navbar-brand{
     padding: 0;
     font-size: 2rem;
@@ -36,5 +31,17 @@
 }
 
 .card-body{
-    background-color: #999;
+    background-color: #eae6e6;
 }
+
+/*  Featurette divider  */
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* @media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+} */
