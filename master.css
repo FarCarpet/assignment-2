@@ -45,22 +45,22 @@ body {
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-            Responsive styles for Carousel
+            Responsive styles for Carousel and gradient
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .no-clip-1{
-    background-image: linear-gradient(transparent 40%, #ffffff0a 50%, #ffffff1f 60%, #ffffff2b 70%, #ffffff38 80%, #ffffff4f 100%), url('./img/florence-pic.jpg');
+    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/florence-pic.jpg');
     background-position: center 60%;
     background-size: cover;
     height: 32rem;
 }
 .no-clip-2{
-    background-image: linear-gradient(transparent 40%, #ffffff0a 50%, #ffffff1f 60%, #ffffff2b 70%, #ffffff38 80%, #ffffff4f 100%), url('./img/filler-pic-1.jpg');
+    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/filler-pic-1.jpg');
     background-position: center bottom;
     background-size: cover;
     height: 32rem;
 }
 .no-clip-3{
-    background-image: linear-gradient(transparent 40%, #ffffff0a 50%, #ffffff1f 60%, #ffffff2b 70%, #ffffff38 80%, #ffffff4f 100%), url('./img/pic-england.jpg');
+    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/pic-england.jpg');
     background-position: center left;
     background-size: cover;
     height: 32rem;
@@ -69,16 +69,51 @@ body {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
             Featured cards styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
+.featured h1{
+    text-transform: uppercase;
+}
 .featured{
     text-align: center;
-    margin-bottom: 20px;
-
+    margin-bottom: 30px;
 }
-
 .feature-card{
     height: 200px;
 }
+.featured-divider {
+  margin: 3rem 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+            Curated trips cards styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.popular-card-1{
+    background-image: url('./img/carribean.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.popular-card-2{
+    background-image: url('./img/great-wall.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.popular-card-3{
+    background-image: url('./img/safari.jpg');
+    height: 30em;
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.btn-card{
+    margin-bottom: 10px;
+}
+
 
 
 
