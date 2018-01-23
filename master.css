@@ -136,3 +136,15 @@ body {
     margin-top: 7rem;
   }
 }
+
+/*  Featurette divider  */
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+
+/* @media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+} */
