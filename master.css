@@ -1,28 +1,48 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Global Styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  background: #f4f9ff;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #007bff;
+    text-decoration: none;
+}
+.icons{
+    color: #007bff;
+}
+.icons:hover{
+    color: black;
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Navbar styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.navbar{
+    background: #c5dffb;
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Carousel styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
   color: black;
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
   background-color: #777;
@@ -45,7 +65,7 @@ body {
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-            Responsive styles for Carousel and gradient
+                Responsive styles for Carousel and gradient
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .no-clip-1{
     background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/florence-pic.jpg');
@@ -67,7 +87,7 @@ body {
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-            Featured cards styles
+                    Featured cards styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .featured h1{
     text-transform: uppercase;
@@ -82,9 +102,13 @@ body {
 .featured-divider {
   margin: 3rem 0;
 }
+.featurette-divider {
+  margin: 5rem 0;
+}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-            Curated trips cards styles
+                    Curated trips cards styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .popular-card-1{
@@ -113,45 +137,27 @@ body {
 .btn-card{
     margin-bottom: 10px;
 }
-
-
-
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Footer Styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+footer{
+    background-color: #c5dffb;
+    height: auto;
+    padding-top: 50px;
+    font-weight: 800;
+    font-size: 1.5em;
 }
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+.col{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
 }
 
 
-/* Featurettes
-------------------------- */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Mobile Styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -171,15 +177,3 @@ body {
     margin-top: 7rem;
   }
 }
-
-/*  Featurette divider  */
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-
-/* @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-} */

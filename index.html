@@ -13,8 +13,8 @@
   </head>
   <body>
 <!-- * * * * * * * * * * * * * * Navigation * * * * * * * * * * * * * * -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><i class="fas fa-plane"></i></a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-plane fa-2x icons"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,8 +22,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <form class="form-inline mr-auto">
                   <button class="btn btn-outline-primary active mr-3" type="button">Home</button>
-                  <button class="btn btn-outline-primary mr-3" type="button">Products</button>
-                  <button class="btn btn-outline-primary mr-3" type="button">Stories</button>
+                  <button class="btn btn-outline-primary mr-3" type="button">View trips</button>
+                  <button class="btn btn-outline-primary mr-3" type="button">Plan a trip</button>
+                  <button class="btn btn-outline-primary mr-3" type="button">Reccomendations</button>
                   <button class="btn btn-outline-primary mr-3" type="button">Support</button>
               </form>
               <div class="float-right-lg">
@@ -35,143 +36,156 @@
         </div>
     </nav>
 
-<main role='main'>
+    <main role='main'>
 
-    <!-- * * * * * * * * * * * * * * Carousel * * * * * * * * * * * * * * -->
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#mycarousel" data-slide-to="1"></li>
-            <li data-target="#mycarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="no-clip-1"></div>
-                <div class="carousel-caption text-left">
-                <h1>Florence</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <button type="button" class="btn btn-lg btn-primary">Travel Here!</button>
+        <!-- * * * * * * * * * * * * * * Carousel * * * * * * * * * * * * * * -->
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1"></li>
+                <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="no-clip-1"></div>
+                    <div class="carousel-caption text-left">
+                        <h1>Florence</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button type="button" class="btn btn-lg btn-primary">Plan your trip!</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="no-clip-2"></div>
+                    <div class="carousel-caption text-left">
+                        <h1>Sorento</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button type="button" class="btn btn-lg btn-primary">Plan your trip!</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="no-clip-3"></div>
+                    <div class="carousel-caption text-left">
+                        <h1>England</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button type="button" class="btn btn-lg btn-primary">Plan your trip!</button>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="no-clip-2"></div>
-                <div class="carousel-caption text-left">
-                <h1>Sorento</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <button type="button" class="btn btn-lg btn-primary">Travel Here!</button>
+            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    <!-- * * * * * * * * * * * * * * Featured Locations * * * * * * * * * * * * * * -->
+
+    <div class="container">
+
+
+        <div class="container featured">
+            <h1>Featured locations</h1>
+        </div>
+
+        <div class="card-group m-1">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/ski.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="no-clip-3"></div>
-                <div class="carousel-caption text-left">
-                <h1>England</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <button type="button" class="btn btn-lg btn-primary">Travel Here!</button>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/discover.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/pic-italy.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
 
-<!-- * * * * * * * * * * * * * * Marketing/Features * * * * * * * * * * * * * * -->
+        <hr class="featured-divider">
 
-<div class="container">
+        <div class="card-group m-1">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/ski.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
+                </div>
+            </div>
 
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/discover.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
+                </div>
+            </div>
 
-    <div class="container featured">
-        <h1>Featured locations</h1>
-    </div>
-
-    <div class="card-group m-1">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/ski.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top feature-card" src="./img/pic-italy.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-primary">Travel here</a>
+                </div>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/discover.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <hr class="featurette-divider">
+
+    <!-- * * * * * * * * * * * * * * Curated Trips * * * * * * * * * * * * * * -->
+
+        <div class="container featured">
+            <h1>Curated Trips</h1>
+            <p>Don't know where to go? Get started with our curated trips.</p>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/pic-italy.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="container">
+                <div class="card mb-3">
+                  <div class="card-img-top popular-card-1">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Carribean Island Hopping</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="btn btn-lg btn-primary">View trip</a>
+                    <p class="card-text"><small class="text-muted">Updated 4 hours ago</small></p>
+                  </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <hr class="featured-divider">
-
-    <div class="card-group m-1">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/ski.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/discover.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top feature-card" src="./img/pic-italy.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="container featured">
-        <h1>Curated Trips</h1>
-        <p>Don't know where to go? Get started with our curated trips.</p>
-    </div>
 
 
         <div class="container">
             <div class="card mb-3">
-              <div class="card-img-top popular-card-1">
+              <div class="card-img-top popular-card-2">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <a href="#" class="btn btn-lg btn-primary">View trip</a>
-                <p class="card-text"><small class="text-muted">Updated 4 hours ago</small></p>
+                <h5 class="card-title">Visit the Great Wall</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="btn btn-lg btn-primary btn-card">View trip</a>
+                <p class="card-text"><small class="text-muted">Updated yesterday</small></p>
               </div>
             </div>
         </div>
@@ -179,42 +193,66 @@
 
     <div class="container">
         <div class="card mb-3">
-          <div class="card-img-top popular-card-2">
+          <div class="card-img-top popular-card-3">
           </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <a href="#" class="btn btn-lg btn-primary btn-card">View trip</a>
-            <p class="card-text"><small class="text-muted">Updated yesterday</small></p>
+            <h5 class="card-title">Meet the locals on an African Safari</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="btn btn-lg btn-primary">View trip</a>
+            <p class="card-text"><small class="text-muted">Updated last week</small></p>
           </div>
         </div>
     </div>
 
-
-<div class="container">
-    <div class="card mb-3">
-      <div class="card-img-top popular-card-3">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <a href="#" class="btn btn-lg btn-primary">View trip</a>
-        <p class="card-text"><small class="text-muted">Updated last week</small></p>
-      </div>
     </div>
-</div>
 
-</div>
+    </main>
 
-</main>
+<!-- * * * * * * * * * * * * * * Footer * * * * * * * * * * * * * * -->
+    <div class="container">
+        <hr class="featurette-divider">
+    </div>
 
-<footer>
-
-
-</footer>
-
-
-
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"><i class="fas fa-plane fa-3x icons"></i></div>
+                <div class="col"><a href="#">Lorem</a></div>
+                <div class="col"><a href="#">Ipsum</a></div>
+                <div class="col">Follow Us!</div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><a href="#">Consectetur</a></div>
+                <div class="col"><a href="#">Adipisicing</a></div>
+                <div class="col"><i class="fab fa-instagram fa-3x icons"></i></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><a href="#">Eiusmod</a></div>
+                <div class="col"><a href="#">Incididunt</a></div>
+                <div class="col"><i class="fab fa-youtube fa-3x icons"></i></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><a href="#">Nostrud</a></div>
+                <div class="col"><a href="#">Veniam</a></div>
+                <div class="col"><i class="fab fa-facebook-f fa-3x icons"></i></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><a href="#">Ullamco</a></div>
+                <div class="col"><a href="#">Laboris</a></div>
+                <div class="col"><i class="fab fa-twitter fa-3x icons"></i></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><a href="#">Aliquip</a></div>
+                <div class="col"><a href="#">Dolore</a></div>
+                <div class="col"><i class="fab fa-snapchat-ghost fa-3x icons"></i></div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
