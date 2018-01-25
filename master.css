@@ -3,7 +3,6 @@
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 body {
-  padding-top: 3rem;
   background: #f4f9ff;
 }
 a{
@@ -23,9 +22,14 @@ a:hover{
                     Navbar styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .navbar{
-    background: #c5dffb;
+    background: transparent;
 }
-
+.navbar .btn{
+    background: #f4f9ff;
+}
+.navbar-toggler{
+    background-color: #58a5f7;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -40,7 +44,11 @@ a:hover{
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
-  color: black;
+  color: #032548;
+}
+.carousel-caption-special{
+    top: 0;
+    margin-top:5em;
 }
 
 .carousel-item {
@@ -56,7 +64,7 @@ a:hover{
 .carousel-item h1{
     font-weight: 700;
     font-family: 'Oswald';
-    color: black;
+    color: #032548;
 }
 
 .carousel-item p{
@@ -104,12 +112,14 @@ ol.carousel-indicators li{
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .featured h1{
     text-transform: uppercase;
+    color: #032548;
 }
 .featured{
     text-align: center;
     margin-bottom: 30px;
 }
 .feature-card{
+    background-image: cover;
     height: 200px;
 }
 .featured-divider {
@@ -123,6 +133,9 @@ ol.carousel-indicators li{
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     Curated trips cards styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.card{
+    color: #032548;
+}
 
 .popular-card-1{
     background-image: url('./img/carribean.jpg');
@@ -163,6 +176,17 @@ footer{
 .col{
     text-align: center;
 }
+.col-padding{
+    padding-bottom: 40px;
+}
+.footer-padding{
+    padding: 30px;
+}
+.check-us-out{
+    padding: 10px;
+    font-size: 1.3em;
+    color: #032548;
+}
 
 
 
@@ -188,4 +212,13 @@ footer{
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                    Change card styles
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+@media (min-width: 576px){
+    .featured-card{
+        width: 100%;
+    }
+
 }
