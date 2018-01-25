@@ -44,7 +44,7 @@ a:hover{
 }
 
 .carousel-item {
-  height: 32rem;
+  height: 40rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -55,35 +55,48 @@ a:hover{
 
 .carousel-item h1{
     font-weight: 700;
-    font-family: Oswald;
+    font-family: 'Oswald';
     color: black;
 }
 
 .carousel-item p{
     font-weight: 900;
-    font-family: Roboto;
+    font-family: 'Roboto';
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 20%;
+    height: 0.3em;
+
+}
+ol.carousel-indicators li.active{
+    background-color: #74b1f3;
+}
+ol.carousel-indicators li{
+    background-color: #d7e9fd;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                 Responsive styles for Carousel and gradient
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .no-clip-1{
-    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/florence-pic.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/florence-pic.jpg');
     background-position: center 60%;
     background-size: cover;
-    height: 32rem;
+    height: 40rem;
 }
 .no-clip-2{
-    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/filler-pic-1.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/filler-pic-1.jpg');
     background-position: center bottom;
     background-size: cover;
-    height: 32rem;
+    height: 40rem;
 }
 .no-clip-3{
-    background-image: linear-gradient(transparent 10%,#ffffff59 30%, #ffffff59 100%), url('./img/pic-england.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/pic-england.jpg');
     background-position: center left;
     background-size: cover;
-    height: 32rem;
+    height: 40rem;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -145,13 +158,12 @@ footer{
     height: auto;
     padding-top: 50px;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 0.8em;
 }
 .col{
     text-align: center;
-    padding: 10px;
-    padding-bottom: 40px;
 }
+
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
