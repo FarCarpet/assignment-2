@@ -110,19 +110,19 @@ ol.carousel-indicators li{
                 Responsive styles for Carousel and gradient
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .no-clip-1{
-    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/florence-pic.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/carousel/carousel-1.jpg');
     background-position: center 60%;
     background-size: cover;
     height: 40rem;
 }
 .no-clip-2{
-    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/filler-pic-1.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/carousel/carousel-2.jpg');
     background-position: center bottom;
     background-size: cover;
     height: 40rem;
 }
 .no-clip-3{
-    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/pic-england.jpg');
+    background-image: linear-gradient(#bbd9f94a 0%, #bbd9f94a 100%), url('./img/carousel/carousel-3.jpg');
     background-position: center left;
     background-size: cover;
     height: 40rem;
@@ -169,7 +169,7 @@ ol.carousel-indicators li{
 }
 
 .popular-card-1{
-    background-image: url('./img/carribean.jpg');
+    background-image: url('./img/curated/curated-1.jpg');
     height: 30rem;
     background-size: cover;
     background-position: center center;
@@ -177,7 +177,7 @@ ol.carousel-indicators li{
 
 
 .popular-card-2{
-    background-image: url('./img/great-wall.jpg');
+    background-image: url('./img/curated/curated-2.jpg');
     height: 30rem;
     background-size: cover;
     background-position: center center;
@@ -185,7 +185,7 @@ ol.carousel-indicators li{
 
 
 .popular-card-3{
-    background-image: url('./img/safari.jpg');
+    background-image: url('./img/curated/curated-3.jpg');
     height: 30em;
     background-size: cover;
     background-position: center 40%;
