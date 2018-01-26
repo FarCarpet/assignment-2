@@ -5,19 +5,23 @@
 body {
   background: #f4f9ff;
 }
-a{
-    color: black;
-}
 a:hover{
-    color: #007bff;
     text-decoration: none;
+    color: #032040;
 }
+
 .icons{
     color: #007bff;
 }
 .icons:hover{
-    color: black;
+    color: #032040;
+
 }
+.btn:hover{
+    background: #f4f9ff;
+    color: #007bff;
+}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     Navbar styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
@@ -30,7 +34,24 @@ a:hover{
 .navbar-toggler{
     background-color: #58a5f7;
 }
-
+.navbar .btn:hover{
+    background-color:  #58a5f7;
+    color: #f4f9ff;
+}
+.navbar-collapse{
+    margin-top: 8px;
+}
+.fa-plane{
+    color: #f4f9ff;
+}
+.fa-square{
+    color: #007bff;
+}
+.fa-plane:hover{
+    color: #007bff;
+    background: #f4f9ff;
+    border-radius: 5px;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     Carousel styles
