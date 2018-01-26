@@ -9,13 +9,11 @@ a:hover{
     text-decoration: none;
     color: #032040;
 }
-
 .icons{
     color: #007bff;
 }
 .icons:hover{
     color: #032040;
-
 }
 .btn:hover{
     background: #f4f9ff;
@@ -61,7 +59,6 @@ a:hover{
 .carousel {
   margin-bottom: 4rem;
 }
-
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
@@ -71,7 +68,6 @@ a:hover{
     top: 0;
     margin-top:5em;
 }
-
 .carousel-item {
   height: 40rem;
   background-color: #777;
@@ -81,23 +77,19 @@ a:hover{
   bottom: 0;
   min-width: 100%;
 }
-
 .carousel-item h1{
     font-weight: 700;
     font-family: 'Oswald';
     color: #032548;
 }
-
 .carousel-item p{
     font-weight: 900;
     font-family: 'Roboto';
 }
-
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
     width: 20%;
     height: 0.3em;
-
 }
 ol.carousel-indicators li.active{
     background-color: #74b1f3;
@@ -141,7 +133,6 @@ ol.carousel-indicators li{
 }
 .feature-card{
     background-image: cover;
-
 }
 .featured-divider {
   margin: 3rem 0;
@@ -153,7 +144,6 @@ ol.carousel-indicators li{
 .card-deck .card{
     min-width: 240px;
 }
-
 .card-img-top{
     width: 100%;
     height: 18em;
@@ -167,30 +157,24 @@ ol.carousel-indicators li{
 .card{
     color: #032548;
 }
-
 .popular-card-1{
     background-image: url('./img/curated/curated-1.jpg');
     height: 30rem;
     background-size: cover;
     background-position: center center;
 }
-
-
 .popular-card-2{
     background-image: url('./img/curated/curated-2.jpg');
     height: 30rem;
     background-size: cover;
     background-position: center center;
 }
-
-
 .popular-card-3{
     background-image: url('./img/curated/curated-3.jpg');
     height: 30em;
     background-size: cover;
     background-position: center 40%;
 }
-
 .btn-card{
     margin-bottom: 10px;
 }
@@ -219,12 +203,9 @@ footer{
     color: #032548;
 }
 
-
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
                     Mobile Styles
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
